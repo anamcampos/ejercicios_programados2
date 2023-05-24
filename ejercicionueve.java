@@ -15,10 +15,12 @@ public class ejercicionueve {
         while (para==true) {
             System.out.println ("Ingrese un numero ");
             int num = input.nextInt();
-             suma +=num;
             if (num==0){
                 para = false;
+            } else {
+                suma +=num;
             }
+           
         }
         System.out.println ("La suma de los numeros ingresados es: " + suma);
     }

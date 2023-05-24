@@ -9,8 +9,8 @@ public class ejerciciocinco {
         Scanner input = new Scanner (System.in);
         System.out.println ("Ingrese un numero entre 0 y 9999 ");
         int num = input.nextInt();
-        while (num<0){
-            System.out.println ("Ingrese un numero entre 0 y 9999, no negativos ");
+        while (num<0 || num>9999){
+            System.out.println ("Ingrese un numero entre 0 y 9999, no negativos o mayores ");
              num = input.nextInt();
         }
         if (num<10) {
