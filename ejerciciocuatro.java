@@ -9,20 +9,20 @@ public class ejerciciocuatro {
         Scanner input = new Scanner (System.in);
         System.out.println ("Ingrese un numero ");
         int num1 = input.nextInt();
-        while (num1==0){
-            System.out.println ("Ingrese un numero diferente a 0 ");
+        while (num1<=0){
+            System.out.println ("Ingrese un numero mayor o diferente a 0 ");
              num1 = input.nextInt();
         }
         System.out.println ("Ingrese un numero ");
         int num2 = input.nextInt();
-        while (num2==0){
-            System.out.println ("Ingrese un numero diferente a 0 ");
+        while (num2<=0){
+            System.out.println ("Ingrese un numero mayor o diferente a 0 ");
              num2 = input.nextInt();
         }
         System.out.println ("Ingrese un numero ");
         int num3 = input.nextInt();
-        while (num3==0){
-            System.out.println ("Ingrese un numero diferente a 0 ");
+        while (num3<=0){
+            System.out.println ("Ingrese un numero mayor o diferente a 0 ");
              num3 = input.nextInt();
         }
 

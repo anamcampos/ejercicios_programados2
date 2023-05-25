@@ -4,7 +4,6 @@ correcta. Suponiendo todos los meses de 30 días. */
 import java.util.Scanner;
 
 public class ejercicioseis {
-
     public static void main (String[] args){
 
         Scanner input = new Scanner (System.in);
