@@ -14,8 +14,10 @@ public class ejerciciosiete {
         while (para==true) {
             System.out.println ("Ingrese un numero ");
             int num = input.nextInt();
-            if (num<=0){
+            if (num<0){
                 para = false;
+            } else if (num==0) {
+                System.out.println ("Ingrese un numero diferente a 0 ");
             } else {
                 System.out.println ("El cuadrado del numero es " + num*num);
             }

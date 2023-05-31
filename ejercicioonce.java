@@ -8,7 +8,7 @@ public class ejercicioonce {
 
         Scanner input = new Scanner (System.in);
         boolean para = true;
-        System.out.println ("Ingrese salarios mayores a 0 para continuar el ciclo o de lo contrario ingrese 0 para terminarlo ");
+        System.out.println ("Ingrese salarios mayores a 0 para continuar el ciclo o de lo contrario ingrese 0 o negativo para terminarlo ");
         int max = 0;
 
         while (para==true) {

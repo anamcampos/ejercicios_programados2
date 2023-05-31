@@ -14,6 +14,7 @@ public class ejerciciodiez {
             while (num<=0){
                 System.out.println ("Ingrese un numero entero mayor a 0 ");
              num = input.nextInt();
+             i-=1;
             }
             suma +=num;
         }

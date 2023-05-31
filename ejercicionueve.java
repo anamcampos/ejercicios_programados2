@@ -19,6 +19,7 @@ public class ejercicionueve {
                 para = false;
             } else {
                 suma +=num;
+                
             }
            
         }
